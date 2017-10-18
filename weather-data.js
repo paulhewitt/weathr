@@ -14,4 +14,4 @@ Object.defineProperties(Weather.prototype, 'temperature', {
   set: function(value){
     this._temperature = value + 'C';
   }
-})
+});
