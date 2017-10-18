@@ -1,2 +1,2 @@
 # weathr
-Weather App using only JS
+Weather App using plain old JS
