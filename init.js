@@ -8,8 +8,8 @@ var loadingText = document.querySelector('#load');
 
 var weatherBox = document.querySelector('#weather')
 
-var weatherCity = weatherBox.firstElementChild;
+var weatherCity = document.querySelector('#weatherCity');
 
 var weatherDescription = document.querySelector('#weatherDescription');
 
-var weatherTemperature = weatherBox.lastElementChild;
+var weatherTemperature = document.querySelector('#weatherTemperature');

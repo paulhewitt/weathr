@@ -15,7 +15,7 @@ function searchWeather(){
   var http = new XMLHttpRequest();
   var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
 
-  http.open (GET, url);
+  http.open ('GET', url);
   http.onreadystatechange = function(){
     if (http.readyState == XMLHttpRequest.DONE && http.status === 200)
     {

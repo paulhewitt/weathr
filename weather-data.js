@@ -7,7 +7,7 @@ function Weather(cityName, description)
   this._description = '';
 }
 
-Object.defineProperties(Weather.prototype, 'temperature', {
+Object.defineProperty(Weather.prototype, 'temperature', {
   get: function() {
     return this._temperature;
   },
